@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        anotherProcessOfThreeten();
+        unrelatedThreetenProcess();
 
         /*
         * The following example
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    private void anotherProcessOfThreeten() {
+    private void unrelatedThreetenProcess() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
